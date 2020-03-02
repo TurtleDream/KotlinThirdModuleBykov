@@ -51,7 +51,7 @@ class Employer constructor(firstName: String, middleName: String, lastName: Stri
     var position: String = position
     var martialStatus : MartialStatus = martialStatus
 
-    val fio = "$lastName $firstName $middleName"
+    val fio = "${this.lastName} ${this.firstName} ${this.middleName}"
 
     val info : String
         get() = """
